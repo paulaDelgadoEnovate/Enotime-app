@@ -1,0 +1,80 @@
+<mxfile host="Electron">
+  <diagram name="Página-1" id="rdJcOOEePava7fkJWDwz">
+    <mxGraphModel dx="1414" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="P0HvpuOahlO8daNj7to6-3" edge="1" parent="1" source="P0HvpuOahlO8daNj7to6-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P0HvpuOahlO8daNj7to6-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;strokeColor=#007FFF;fillColor=none;" value="Inicio: Solicitud de Vacaciones" vertex="1">
+          <mxGeometry height="60" width="146" x="364" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-8" edge="1" parent="1" source="P0HvpuOahlO8daNj7to6-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="P0HvpuOahlO8daNj7to6-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=none;strokeColor=#007FFF;" value="Verificar saldo disponible y seleccionar fechas deseadas" vertex="1">
+          <mxGeometry height="50" width="167" x="353.5" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-10" edge="1" parent="1" source="P0HvpuOahlO8daNj7to6-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="P0HvpuOahlO8daNj7to6-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=none;strokeColor=#7F00FF;" value="Cambiar estado de la solicitud a &quot;Pendiente&quot;" vertex="1">
+          <mxGeometry height="50" width="167" x="353.5" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-12" edge="1" parent="1" source="P0HvpuOahlO8daNj7to6-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="P0HvpuOahlO8daNj7to6-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=none;strokeColor=#7F00FF;" value="Notificar nueva solicitud al Jefe Directo" vertex="1">
+          <mxGeometry height="50" width="167" x="353.5" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#808080;fillColor=none;" value="Visualizar solicitud y revisar coincidencias con el resto del equipo" vertex="1">
+          <mxGeometry height="100" width="180" x="347" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-16" edge="1" parent="1" source="P0HvpuOahlO8daNj7to6-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="P0HvpuOahlO8daNj7to6-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-17" connectable="0" parent="P0HvpuOahlO8daNj7to6-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Si" vertex="1">
+          <mxGeometry relative="1" x="-0.1746" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-18" edge="1" parent="1" source="P0HvpuOahlO8daNj7to6-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="P0HvpuOahlO8daNj7to6-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-19" connectable="0" parent="P0HvpuOahlO8daNj7to6-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.0333" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-13" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#808080;fillColor=none;" value="¿Aprobar solicitud?" vertex="1">
+          <mxGeometry height="100" width="100" x="387" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-22" edge="1" parent="1" source="P0HvpuOahlO8daNj7to6-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="P0HvpuOahlO8daNj7to6-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=none;strokeColor=#7F00FF;" value="Actualizar estado a &quot;Aprobado&quot; y descontar saldo" vertex="1">
+          <mxGeometry height="50" width="167" x="540" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-23" edge="1" parent="1" source="P0HvpuOahlO8daNj7to6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="P0HvpuOahlO8daNj7to6-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=none;strokeColor=#7F00FF;" value="Actualizar estado a &quot;Rechazado&quot; (Guardar comentarios)" vertex="1">
+          <mxGeometry height="50" width="167" x="353.5" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-20" edge="1" parent="1" source="P0HvpuOahlO8daNj7to6-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="P0HvpuOahlO8daNj7to6-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=none;strokeColor=#7F00FF;" value="Notificar decisión final al Empleado" vertex="1">
+          <mxGeometry height="50" width="167" x="540" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-25" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;strokeColor=#007FFF;fillColor=none;" value="Fin del proceso" vertex="1">
+          <mxGeometry height="60" width="100" x="573.5" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-26" edge="1" parent="1" source="P0HvpuOahlO8daNj7to6-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="P0HvpuOahlO8daNj7to6-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

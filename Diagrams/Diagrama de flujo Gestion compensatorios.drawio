@@ -1,0 +1,74 @@
+<mxfile host="Electron">
+  <diagram name="Página-1" id="rdJcOOEePava7fkJWDwz">
+    <mxGraphModel dx="1664" dy="989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="P0HvpuOahlO8daNj7to6-3" edge="1" parent="1" source="P0HvpuOahlO8daNj7to6-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P0HvpuOahlO8daNj7to6-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;strokeColor=#007FFF;fillColor=none;" value="Inicio: Registro de Trabajo Extra" vertex="1">
+          <mxGeometry height="60" width="166" x="354.5" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-8" edge="1" parent="1" source="P0HvpuOahlO8daNj7to6-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="P0HvpuOahlO8daNj7to6-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=none;strokeColor=#007FFF;" value="Registrar evento extra (fecha, horas y labor realizada)" vertex="1">
+          <mxGeometry height="50" width="167" x="353.5" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-10" edge="1" parent="1" source="P0HvpuOahlO8daNj7to6-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="P0HvpuOahlO8daNj7to6-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="437" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=none;strokeColor=#7F00FF;" value="Notificar evento al Jefe Directo" vertex="1">
+          <mxGeometry height="50" width="167" x="353.5" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-29" edge="1" parent="1" source="P0HvpuOahlO8daNj7to6-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="P0HvpuOahlO8daNj7to6-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#808080;fillColor=none;" value="Revisar evento y registrar equivalencia en días/horas" vertex="1">
+          <mxGeometry height="80" width="180" x="347" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-22" edge="1" parent="1" source="P0HvpuOahlO8daNj7to6-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="P0HvpuOahlO8daNj7to6-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="623.5" y="565" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=none;strokeColor=#7F00FF;" value="Notificar decisión final al Empleado" vertex="1">
+          <mxGeometry height="50" width="167" x="543.5" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-25" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;strokeColor=#007FFF;fillColor=none;" value="Fin de Fase Causación" vertex="1">
+          <mxGeometry height="60" width="100" x="577" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-26" edge="1" parent="1" source="P0HvpuOahlO8daNj7to6-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="P0HvpuOahlO8daNj7to6-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=none;strokeColor=#7F00FF;" value="Actualizar saldo de &quot;Compensatorios Disponibles&quot; del empleado" vertex="1">
+          <mxGeometry height="70" width="213" x="330.5" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-35" edge="1" parent="1" source="P0HvpuOahlO8daNj7to6-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="P0HvpuOahlO8daNj7to6-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-31" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=none;strokeColor=#007FFF;" value="Inicio: Solicitud de Disfrute" vertex="1">
+          <mxGeometry height="60" width="109.5" x="359" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-32" edge="1" parent="1" source="P0HvpuOahlO8daNj7to6-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="P0HvpuOahlO8daNj7to6-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TrIKt4a7yTFS2B5iWgLm-1" edge="1" parent="1" source="P0HvpuOahlO8daNj7to6-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="P0HvpuOahlO8daNj7to6-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=none;strokeColor=#007FFF;" value="Seleccionar fecha disponible del saldo de compensatorios y enviar solicitud" vertex="1">
+          <mxGeometry height="50" width="167" x="330" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="P0HvpuOahlO8daNj7to6-34" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" value="A" vertex="1">
+          <mxGeometry height="80" width="80" x="373.75" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="TrIKt4a7yTFS2B5iWgLm-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="El flujo continúa en el paso &#39;Cambiar estado a Pendiente&#39; del Flujo 1 de Solicitud de Vacaciones" vertex="1">
+          <mxGeometry height="30" width="200" x="313.75" y="920" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
